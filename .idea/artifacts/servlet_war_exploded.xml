@@ -1,0 +1,30 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="servlet:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/servlet_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="servlet/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="servlet" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$USER_HOME$/Desktop/java/mysql-connector-java-5.1.46/mysql-connector-java-5.1.46-bin.jar" />
+          <element id="file-copy" path="$USER_HOME$/Desktop/java/c3p0-0.9.5.2/lib/mchange-commons-java-0.2.11.jar" />
+          <element id="file-copy" path="$USER_HOME$/Desktop/java/c3p0-0.9.5.2/lib/c3p0-oracle-thin-extras-0.9.5.2.jar" />
+          <element id="file-copy" path="$USER_HOME$/Desktop/java/c3p0-0.9.5.2/lib/c3p0-0.9.5.2.jar" />
+          <element id="file-copy" path="$USER_HOME$/Desktop/java/Json jar包/jdom.jar" />
+          <element id="file-copy" path="$USER_HOME$/Desktop/java/Json jar包/ezmorph-1.0.4.jar" />
+          <element id="file-copy" path="$USER_HOME$/Desktop/java/Json jar包/commons-lang-2.4.jar" />
+          <element id="file-copy" path="$USER_HOME$/Desktop/java/Json jar包/commons-logging-1.1.jar" />
+          <element id="file-copy" path="$USER_HOME$/Desktop/java/Json jar包/json-lib-2.2.2-jdk15.jar" />
+          <element id="file-copy" path="$USER_HOME$/Desktop/java/Json jar包/json-lib-2.2.3-jdk13.jar" />
+          <element id="file-copy" path="$USER_HOME$/Desktop/java/Json jar包/commons-beanutils-1.7.0.jar" />
+          <element id="file-copy" path="$USER_HOME$/Desktop/java/Json jar包/commons-collections-3.2.jar" />
+          <element id="file-copy" path="$USER_HOME$/Desktop/java/jstl.jar和standard-1.1.2.jar/jstl.jar" />
+          <element id="file-copy" path="$USER_HOME$/Desktop/java/jstl.jar和standard-1.1.2.jar/standard-1.1.2.jar" />
+          <element id="file-copy" path="$USER_HOME$/Desktop/java/jxl-2.4.2.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

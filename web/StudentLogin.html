@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>登录系统</title>
+	<link href="css/login.css" rel="stylesheet" type="text/css" media="all" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<script>var __links = document.querySelectorAll('a');function __linkClick(e) { parent.window.postMessage(this.href, '*');} ;for (var i = 0, l = __links.length; i < l; i++) {if ( __links[i].getAttribute('data-t') == '_blank' ) { __links[i].addEventListener('click', __linkClick, false);}}</script>
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="js/Code.js"></script>
+	<script type="text/javascript" src="js/Check.js"></script>
+	<script>
+        $(document).ready(function() {
+            $('.alert-close').on('click', function(){
+                $('.message').fadeOut('slow', function(){
+                    $('.message').remove();
+                });
+            });
+        });
+	</script>
+</head>
+<body onload="changeImg()">
+<div class="message warning">
+	<div class="inset">
+		<div class="login-head">
+			<h1>Login Form</h1>
+			<div class="alert-close"> </div>
+		</div>
+		<form action="#" method="post">
+			<li>
+				<input type="text" name="stunam" id="stunam" placeholder="请输入用户名"><a href="#" class=" icon user"></a>
+			</li>
+			<div id="div1" style="color: red;float: left"></div>
+			<div class="clear"></div>
+			<li>
+				<input type="password" name="password" id="password" placeholder="输入密码"> <a href="#" class="icon lock"></a>
+			</li>
+			<div id="div2" style="color: red;float: left"></div>
+			<div class="clear"></div>
+			<li>
+				<input type="text" name="code" id="code" placeholder="输入验证码"> <a href="#" class="icon code"></a>
+			</li>
+			<div id="div3" style="color: red;float: left"></div>
+			<div class="clear"></div>
+			<img id="imgObj" alt="验证码" style="float: left;" src="CodeServlet"><a href="#" onclick="changeImg()">换一张</a>
+			<div class="clear"></div>
+			<div class="submit">
+				<input type="button" id="login" value="Sign in">
+				<input type="button" onclick="window.location.href='StudentRegister.html'" value="Register" >
+				<div class="clear">  </div>
+			</div>
+		</form>
+	</div>
+</div>
+</div>
+<div class="clear"> </div>
+<div class="footer">
+	<p>Copyright &copy; 2018.</p>
+</div>
+</body>
+</html>

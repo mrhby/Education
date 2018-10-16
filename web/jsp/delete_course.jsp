@@ -114,7 +114,7 @@
 					</tr>
 					<c:forEach var="course" items="${courseList}">
 						<tr>
-							<td id="couid">${course.couid}</td>
+							<td>${course.couid}</td>
 							<td>${course.counam}</td>
 							<td>${course.coutimes}</td>
 							<td>${course.couroom}</td>
